@@ -150,11 +150,11 @@ function createGraph(listed) {
   for (let a = 0; a < listed.length; a++) {
     let colored =
       "rgb(" +
-      Math.floor(Math.random() * 60) +
+      0 +
       "," +
-      Math.floor(Math.random() * 60) +
+      0 +
       "," +
-      Math.floor(Math.random() * 60) +
+      0 +
       ")";
     if (a == 0) document.getElementById("yfunc1").style.color = colored;
     else document.getElementsByClassName("yfunc")[a - 1].style.color = colored;
