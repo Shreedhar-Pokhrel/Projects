@@ -7,4 +7,5 @@
 #canvas {
   position: absolute;
   margin: auto;
+  zoom:0.67;
 }
